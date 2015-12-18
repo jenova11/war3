@@ -1,0 +1,22 @@
+name: FactionWar
+main: com.kyrion.principal.FactionWar
+version: 1.0
+description: Systeme de guerre KyrionMc
+author: Laffont Florian
+depend: [Factions,Vault]
+commands:
+    war:
+        description: Lancer un assault sur une ville
+        usage: /war [NomVille]
+    capitule:
+        description: Capitule face a une ville
+        usage: /capitule [NomVille]
+    spawnCrystal:
+        description: Spawn du crystal
+        usage: /spawnCrystal [faction] [att]
+    setCrystal:
+        description: Spawn du crystal
+        usage: /setCrystal
+    victory:
+        description: victoire
+        usage: /victory [factionCible] [attDef]

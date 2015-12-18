@@ -1,0 +1,23 @@
+text:
+  war:
+    NO_CITY: "Vous ne faite pas partie d'une ville"
+    NO_PERM: "Seul le chef de la ville peux lancer une bataille"
+    FACTION_NO_EXIST: "La ville cibler n'existe pas"
+    FACTION_NO_ENEMY: "Vous n'etes pas enemy avec la ville ciblé"
+    ATT_MIN_DEUX: "Vous devez etre au minimum deux connecter dans votre ville pour lancer un assault"
+    DEF_MIN_DEUX: "La ville que vous voulez attaquer n'as pas deux joueurs connecter"
+    ATT_MESSAGE: "Nous attaquons la ville "
+    DEF_MESSAGE:  "nous attaque! Défendons notre ville!"
+    FAC_ON_ASSAULT: "La ville est deja en assault"
+    MIN_2H: "Vous devez attendre 2H avant de relancer un assault contre cette ville"
+    FIN_ASSAULT: "Assaut fini"
+  victory:
+    sousEnfant:
+      WARN_PLAYER_SEND: "Un joueur ne peux pas lancer cette commande"
+      NO_WAR: "il n'y as pas de Guerre en cour"
+system:
+  minAtt: 2
+  minDef: 2
+  warTime: 36000
+  warInterTime: 144000
+  warNbWin: 5
